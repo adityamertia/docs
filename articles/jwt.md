@@ -77,7 +77,7 @@ Both RSA and ECDSA are asymmetric encryption and digital signature algorithms. W
 
 You can read more on these algorithms [here](https://auth0.com/blog/2015/12/17/json-web-token-signing-algorithms-overview/).
 
-At Auth0 we rely heavily on the fetures of JWTs. All of our APIs handle authentication and authorization through JWTs. For instance, our Lock library returns a JWT that you can store client side and use for future requests to your own APIs. Thanks to JWS and JWE, the contents of the client-side JWTs are safe.
+At Auth0 we rely heavily on the features of JWTs. All of our APIs handle authentication and authorization through JWTs. For instance, our Lock library returns a JWT that you can store client side and use for future requests to your own APIs. Thanks to JWS and JWE, the contents of the client-side JWTs are safe.
 
 You can set the JWT Signature Algorithm you want to use for your app using the [Management Dashboard](${uiURL}/#/). Navigate to your application and click on _Settings > Show Advanced Settings > OAuth_. The _JsonWebToken Signature Algorithm_ field offers two choices:
 - `HS256`: JWT will be signed with your client secret.
